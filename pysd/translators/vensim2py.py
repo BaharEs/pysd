@@ -56,7 +56,8 @@ dictionary = {"ABS":"abs", "INTEGER":"int", "EXP":"np.exp",
     "ARCSIN":"np.arcsin", "ARCTAN":"np.arctan", "IF THEN ELSE":"self.functions.if_then_else",
     "STEP":"self.functions.step", "MODULO":"np.mod", "PULSE":"self.functions.pulse",
     "PULSE TRAIN":"self.functions.pulse_train", "RAMP":"self.functions.ramp",
-    "=":"==", "<=":"<=", "<":"<", ">=":">=", ">":">", "^":"**"}
+    "=":"==", "<=":"<=", "<":"<", ">=":">=", ">":">", "^":"**",
+    "ln":"np.log", "Min":"min", ":OR:":"or", ":AND:":"and"}
 
 construction_functions = ['DELAY1', 'DELAY3', 'DELAY N',
                           'SMOOTH3I', 'SMOOTH3', 'SMOOTH N', 'SMOOTH',
